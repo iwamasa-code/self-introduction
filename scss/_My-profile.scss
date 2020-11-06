@@ -1,0 +1,49 @@
+.My-profile {
+    width: 100%;
+    &_wrap {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &_title {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border: 1px solid #eee;
+        border-radius: 10px;
+        background-color: #eee;
+        width: 80vw;
+        margin: 10vh auto;
+        letter-spacing: 0.5rem;
+    }
+}
+
+.box {
+    width: 30%;
+    &:nth-child(1) {
+        height: 38.5vw;
+    }
+}
+
+.My-profile_img {
+    width: 28vw;
+    height: 50vh;   
+    margin: 0 auto;
+}
+
+.My-profile_info {
+    font-weight: bold;
+    font-size: 1.5vw;
+    text-align: center;
+    letter-spacing: 0.5vw;
+    margin-top: 1vw;
+}
+
+
+b {
+    font-weight: bold;
+}
+
+
+
